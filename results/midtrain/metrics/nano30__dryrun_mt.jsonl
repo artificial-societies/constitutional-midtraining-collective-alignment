@@ -1,0 +1,5 @@
+{"event": "loaded", "seconds": 197, "params": 31577937344, "epoch_steps": 962, "total_steps": 2, "warmup": 1, "args": {"run": "/midtrain/cpt/nano30/dryrun_mt", "init": "/midtrain/cpt/nano30/base_init", "data": "/midtrain/cpt/nano30/data", "kind": "cpt", "arm": "treated", "lr": "1e-06", "schedule": "cosine", "warmup_frac": "0.1", "warmup_steps": "None", "steps": "2", "stop_at": "None", "beta2": "0.999", "weight_decay": "0.01", "clip": "1.0", "ckpt_minutes": "30.0", "eval_seqs": "0", "no_act_ckpt": "False", "check_packing": "False", "export": "True", "experts": "grouped_mm", "sync_every_micro": "True"}}
+{"step": 1, "loss": 1.38487, "lr": 1e-06, "grad_norm": 0.3654, "seconds": 107.26, "mfu": 0.103, "tokens_per_s": 9776, "mem_gb": 79.0}
+{"step": 2, "loss": 1.3954, "lr": 1e-06, "grad_norm": 0.3668, "seconds": 25.16, "mfu": 0.439, "tokens_per_s": 41681, "mem_gb": 79.9}
+{"event": "checkpoint", "step": 2}
+{"event": "done", "step": 2, "seconds": 751}

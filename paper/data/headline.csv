@@ -1,0 +1,11 @@
+panel,arm,k,n,p,lo,hi,mark
+The firm adds harm,NVIDIA model alone,162,300,0.54,0.4834506745713475,0.5955378510288337,
+The firm adds harm,NVIDIA model in every seat,179,240,0.7458333333333333,0.6871742693124719,0.7967464398692264,*
+Interventions at the acting seat,Control Director,114,180,0.6333333333333333,0.560831054545563,0.7002632788370882,
+Interventions at the acting seat,Midtrained Director,81,180,0.45,0.3791218435422471,0.5229677814392588,*
+Interventions at the acting seat,Safety-tuned Director,62,180,0.34444444444444444,0.27892731457327735,0.4164626298136297,*
+After later fine-tuning,Control Director,98,180,0.5444444444444444,0.47151816368939986,0.6155132807714838,
+After later fine-tuning,Midtrained Director,71,180,0.39444444444444443,0.32596704903202867,0.4673332703733726,*
+After later fine-tuning,Safety-tuned Director,86,180,0.4777777777777778,0.4060343903442582,0.5504498874253001,
+"Safety step on each base, after later fine-tuning",Control + safety Director,95,225,0.4222222222222222,0.35952052934432654,0.487535250723633,
+"Safety step on each base, after later fine-tuning",Midtrained + safety Director,75,225,0.3333333333333333,0.27498949291689667,0.3972728929430168,*

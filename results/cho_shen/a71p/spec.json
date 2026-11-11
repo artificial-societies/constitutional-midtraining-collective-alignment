@@ -1,0 +1,116 @@
+{
+ "name": "a71p",
+ "commit": "42d79f3c77df8a1c9bf28377028c7ec4dd702ce3",
+ "url": "https://societies--cmca-a71-cs-serve.us-east.modal.run",
+ "wait_urls": [
+  "https://societies--cmca-a71-cs-serve.us-east.modal.run",
+  "https://societies--cmca-a71-ctl-serve.us-east.modal.run",
+  "https://societies--cmca-a71-nv1-serve.us-east.modal.run",
+  "https://societies--cmca-a71-udr-serve.us-east.modal.run"
+ ],
+ "retries": 2,
+ "jobs": [
+  {
+   "out": "a71p_leaking_uniform-dr_nv1.jsonl",
+   "url": "https://societies--cmca-a71-nv1-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "nemotron-3-super",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "8192",
+    "--scenario",
+    "leaking",
+    "--condition",
+    "authorized",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "10",
+    "--concurrency",
+    "10",
+    "--seats-json",
+    "{\"Communications Director\": {\"url\": \"https://societies--cmca-a71-udr-serve.us-east.modal.run/v1\", \"model\": \"nemotron-cho-uniform-dr\", \"temperature\": 0.6, \"max_tokens\": 2048}}"
+   ]
+  },
+  {
+   "out": "a71p_leaking_control_nv1.jsonl",
+   "url": "https://societies--cmca-a71-nv1-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "nemotron-3-super",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "8192",
+    "--scenario",
+    "leaking",
+    "--condition",
+    "authorized",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "10",
+    "--concurrency",
+    "10",
+    "--seats-json",
+    "{\"Communications Director\": {\"url\": \"https://societies--cmca-a71-ctl-serve.us-east.modal.run/v1\", \"model\": \"nemotron-cho-control\", \"temperature\": 0.6, \"max_tokens\": 2048}}"
+   ]
+  },
+  {
+   "out": "a71p_leaking_control-safety4k_nv1.jsonl",
+   "url": "https://societies--cmca-a71-nv1-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "nemotron-3-super",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "8192",
+    "--scenario",
+    "leaking",
+    "--condition",
+    "authorized",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "10",
+    "--concurrency",
+    "10",
+    "--seats-json",
+    "{\"Communications Director\": {\"url\": \"https://societies--cmca-a71-cs-serve.us-east.modal.run/v1\", \"model\": \"nemotron-cho-control-safety4k\", \"temperature\": 0.6, \"max_tokens\": 2048}}"
+   ]
+  },
+  {
+   "out": "a71p_leaking_nvidia_nv1.jsonl",
+   "url": "https://societies--cmca-a71-nv1-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "nemotron-3-super",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "8192",
+    "--scenario",
+    "leaking",
+    "--condition",
+    "authorized",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "10",
+    "--concurrency",
+    "10"
+   ]
+  }
+ ]
+}

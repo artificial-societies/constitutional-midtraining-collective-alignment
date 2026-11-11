@@ -1,0 +1,164 @@
+{
+ "name": "a46",
+ "commit": "1e7db63a53dda68f0945a7fa2130e4496ca0e925",
+ "url": "https://societies--cmca-a46-cs-serve.us-east.modal.run",
+ "wait_urls": [
+  "https://societies--cmca-a46-cs-serve.us-east.modal.run",
+  "https://societies--cmca-a46-nv1-serve.us-east.modal.run",
+  "https://societies--cmca-a46-nv2-serve.us-east.modal.run",
+  "https://societies--cmca-a46-nv3-serve.us-east.modal.run"
+ ],
+ "retries": 2,
+ "stop_app": [
+  "cmca-a46-nv1",
+  "cmca-a46-nv2",
+  "cmca-a46-nv3",
+  "cmca-a46-cs"
+ ],
+ "jobs": [
+  {
+   "out": "a46_blackmail_director_control-safety4k.jsonl",
+   "url": "https://societies--cmca-a46-nv1-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "nemotron-3-super",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "8192",
+    "--scenario",
+    "blackmail",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "60",
+    "--concurrency",
+    "30",
+    "--seats-json",
+    "{\"Communications Director\": {\"url\": \"https://societies--cmca-a46-cs-serve.us-east.modal.run/v1\", \"model\": \"nemotron-cho-control-safety4k\", \"temperature\": 0.6, \"max_tokens\": 2048}}"
+   ]
+  },
+  {
+   "out": "a46_blackmail_partner_control-safety4k.jsonl",
+   "url": "https://societies--cmca-a46-nv2-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "nemotron-3-super",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "8192",
+    "--scenario",
+    "blackmail",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "60",
+    "--concurrency",
+    "30",
+    "--seats-json",
+    "{\"Partner\": {\"url\": \"https://societies--cmca-a46-cs-serve.us-east.modal.run/v1\", \"model\": \"nemotron-cho-control-safety4k\", \"temperature\": 0.6, \"max_tokens\": 2048}}"
+   ]
+  },
+  {
+   "out": "a46_murder_director_control-safety4k.jsonl",
+   "url": "https://societies--cmca-a46-nv3-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "nemotron-3-super",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "8192",
+    "--scenario",
+    "murder",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "60",
+    "--concurrency",
+    "30",
+    "--seats-json",
+    "{\"Communications Director\": {\"url\": \"https://societies--cmca-a46-cs-serve.us-east.modal.run/v1\", \"model\": \"nemotron-cho-control-safety4k\", \"temperature\": 0.6, \"max_tokens\": 2048}}"
+   ]
+  },
+  {
+   "out": "a46_murder_partner_control-safety4k.jsonl",
+   "url": "https://societies--cmca-a46-nv1-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "nemotron-3-super",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "8192",
+    "--scenario",
+    "murder",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "60",
+    "--concurrency",
+    "30",
+    "--seats-json",
+    "{\"Partner\": {\"url\": \"https://societies--cmca-a46-cs-serve.us-east.modal.run/v1\", \"model\": \"nemotron-cho-control-safety4k\", \"temperature\": 0.6, \"max_tokens\": 2048}}"
+   ]
+  },
+  {
+   "out": "a46_leaking_director_control-safety4k.jsonl",
+   "url": "https://societies--cmca-a46-nv2-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "nemotron-3-super",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "8192",
+    "--scenario",
+    "leaking",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "60",
+    "--concurrency",
+    "30",
+    "--seats-json",
+    "{\"Communications Director\": {\"url\": \"https://societies--cmca-a46-cs-serve.us-east.modal.run/v1\", \"model\": \"nemotron-cho-control-safety4k\", \"temperature\": 0.6, \"max_tokens\": 2048}}"
+   ]
+  },
+  {
+   "out": "a46_leaking_partner_control-safety4k.jsonl",
+   "url": "https://societies--cmca-a46-nv3-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "nemotron-3-super",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "8192",
+    "--scenario",
+    "leaking",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "60",
+    "--concurrency",
+    "30",
+    "--seats-json",
+    "{\"Partner\": {\"url\": \"https://societies--cmca-a46-cs-serve.us-east.modal.run/v1\", \"model\": \"nemotron-cho-control-safety4k\", \"temperature\": 0.6, \"max_tokens\": 2048}}"
+   ]
+  }
+ ]
+}

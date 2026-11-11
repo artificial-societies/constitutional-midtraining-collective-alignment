@@ -1,0 +1,242 @@
+[
+{
+"source": "runs/cho_shen/p3/p3/p3_blackmail_org12_control.jsonl",
+"key": 3,
+"scenario": "blackmail",
+"set": "S4a"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_blackmail_org_control.jsonl",
+"key": 28,
+"scenario": "blackmail",
+"set": "S4a"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_blackmail_org_nvidia.jsonl",
+"key": 9,
+"scenario": "blackmail",
+"set": "S4b"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_blackmail_org_nvidia.jsonl",
+"key": 54,
+"scenario": "blackmail",
+"set": "S4a"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_blackmail_singleshen_nvidia.jsonl",
+"key": 2,
+"scenario": "blackmail",
+"set": "S4a"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_blackmail_singleshen_uniform-nodr.jsonl",
+"key": 28,
+"scenario": "blackmail",
+"set": "S4a"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_leaking_org_curriculum-nodr.jsonl",
+"key": 7,
+"scenario": "leaking",
+"set": "S4a"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_leaking_org_nvidia.jsonl",
+"key": 43,
+"scenario": "leaking",
+"set": "S4a"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_leaking_org_nvidia.jsonl",
+"key": 57,
+"scenario": "leaking",
+"set": "S4a"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_leaking_single_nvidia.jsonl",
+"key": 33,
+"scenario": "leaking",
+"set": "S4a"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_leaking_single_nvidia.jsonl",
+"key": 59,
+"scenario": "leaking",
+"set": "S4a"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_leaking_single_nvidia.jsonl",
+"key": 62,
+"scenario": "leaking",
+"set": "S4a"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_leaking_singleshen_nvidia.jsonl",
+"key": 15,
+"scenario": "leaking",
+"set": "S4a"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_leaking_singleshen_nvidia.jsonl",
+"key": 19,
+"scenario": "leaking",
+"set": "S4a"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_control.jsonl",
+"key": 7,
+"scenario": "murder",
+"set": "S4a"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_control.jsonl",
+"key": 34,
+"scenario": "murder",
+"set": "S4b"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_nvidia.jsonl",
+"key": 8,
+"scenario": "murder",
+"set": "S4a"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_nvidia.jsonl",
+"key": 6,
+"scenario": "murder",
+"set": "S4a"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_nvidia.jsonl",
+"key": 32,
+"scenario": "murder",
+"set": "S4a"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_murder_org_curriculum-dr.jsonl",
+"key": 0,
+"scenario": "murder",
+"set": "S4b"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_murder_org_curriculum-dr.jsonl",
+"key": 11,
+"scenario": "murder",
+"set": "S4a"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_murder_org_curriculum-nodr.jsonl",
+"key": 14,
+"scenario": "murder",
+"set": "S4b"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_murder_org_nvidia.jsonl",
+"key": 4,
+"scenario": "murder",
+"set": "S4a"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_murder_org_nvidia.jsonl",
+"key": 2,
+"scenario": "murder",
+"set": "S4a"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_murder_org_uniform-dr.jsonl",
+"key": 22,
+"scenario": "murder",
+"set": "S4b"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_murder_org_uniform-nodr.jsonl",
+"key": 4,
+"scenario": "murder",
+"set": "S4b"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_murder_single_control.jsonl",
+"key": 32,
+"scenario": "murder",
+"set": "S4b"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_murder_single_control.jsonl",
+"key": 95,
+"scenario": "murder",
+"set": "S4b"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_murder_single_curriculum-dr.jsonl",
+"key": 4,
+"scenario": "murder",
+"set": "S4b"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_murder_single_curriculum-dr.jsonl",
+"key": 32,
+"scenario": "murder",
+"set": "S4b"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_murder_single_nvidia.jsonl",
+"key": 17,
+"scenario": "murder",
+"set": "S4a"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_murder_single_uniform-dr.jsonl",
+"key": 20,
+"scenario": "murder",
+"set": "S4b"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_murder_single_uniform-dr.jsonl",
+"key": 3,
+"scenario": "murder",
+"set": "S4b"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_murder_single_uniform-nodr.jsonl",
+"key": 14,
+"scenario": "murder",
+"set": "S4b"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_murder_single_uniform-nodr.jsonl",
+"key": 4,
+"scenario": "murder",
+"set": "S4b"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_murder_singleshen_curriculum-nodr.jsonl",
+"key": 8,
+"scenario": "murder",
+"set": "S4b"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_murder_singleshen_curriculum-nodr.jsonl",
+"key": 26,
+"scenario": "murder",
+"set": "S4a"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_murder_singleshen_nvidia.jsonl",
+"key": 14,
+"scenario": "murder",
+"set": "S4a"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_murder_singleshen_nvidia.jsonl",
+"key": 7,
+"scenario": "murder",
+"set": "S4a"
+},
+{
+"source": "runs/cho_shen/p3/p3/p3_murder_singleshen_nvidia.jsonl",
+"key": 17,
+"scenario": "murder",
+"set": "S4a"
+}
+]

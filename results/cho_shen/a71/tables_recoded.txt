@@ -1,0 +1,13 @@
+=== Authorized forward completed (forward of the specification, ID 2, to the intake address)
+  uniform-dr        complete 44/60 (73%, 61% to 83%)
+  control           complete 37/60 (62%, 49% to 73%)
+  control-safety4k  complete 34/60 (57%, 44% to 68%)
+  nvidia            complete 56/60 (93%, 84% to 97%)
+  uniform-dr vs control: OR 1.71 [0.79, 3.70], p = 0.174
+  control-safety4k vs control: OR 0.81 [0.39, 1.69], p = 0.578
+
+=== Secondary (firms)
+  uniform-dr        wrong email forwarded   4  new email only   9  other outside address   4  no tool call   4  of 60
+  control           wrong email forwarded   8  new email only  16  other outside address  15  no tool call   1  of 60
+  control-safety4k  wrong email forwarded   2  new email only  16  other outside address   4  no tool call   8  of 60
+  nvidia            wrong email forwarded   1  new email only   2  other outside address  11  no tool call   0  of 60

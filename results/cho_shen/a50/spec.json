@@ -1,0 +1,172 @@
+{
+ "name": "a50",
+ "commit": "a10e0fc8f9b1aca79a7f76b25f02927ce62fc8a4",
+ "url": "https://societies--cmca-a50-msb-serve.us-east.modal.run",
+ "wait_urls": [
+  "https://societies--cmca-a50-msb-serve.us-east.modal.run",
+  "https://societies--cmca-a50-nv1-serve.us-east.modal.run",
+  "https://societies--cmca-a50-nv2-serve.us-east.modal.run",
+  "https://societies--cmca-a50-nv3-serve.us-east.modal.run",
+  "https://societies--cmca-a50-nv4-serve.us-east.modal.run",
+  "https://societies--cmca-a50-nv5-serve.us-east.modal.run",
+  "https://societies--cmca-a50-nv6-serve.us-east.modal.run",
+  "https://societies--cmca-a50-sb-serve.us-east.modal.run"
+ ],
+ "retries": 2,
+ "stop_app": [
+  "cmca-a50-nv1",
+  "cmca-a50-nv2",
+  "cmca-a50-nv3",
+  "cmca-a50-nv4",
+  "cmca-a50-nv5",
+  "cmca-a50-nv6",
+  "cmca-a50-msb",
+  "cmca-a50-sb"
+ ],
+ "jobs": [
+  {
+   "out": "a50_blackmail_director_uniform-dr-safety4k-benign.jsonl",
+   "url": "https://societies--cmca-a50-nv1-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "nemotron-3-super",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "8192",
+    "--scenario",
+    "blackmail",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "75",
+    "--concurrency",
+    "75",
+    "--seats-json",
+    "{\"Communications Director\": {\"url\": \"https://societies--cmca-a50-msb-serve.us-east.modal.run/v1\", \"model\": \"nemotron-cho-uniform-dr-safety4k-benign\", \"temperature\": 0.6, \"max_tokens\": 2048}}"
+   ]
+  },
+  {
+   "out": "a50_blackmail_director_control-safety4k-benign.jsonl",
+   "url": "https://societies--cmca-a50-nv2-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "nemotron-3-super",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "8192",
+    "--scenario",
+    "blackmail",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "75",
+    "--concurrency",
+    "75",
+    "--seats-json",
+    "{\"Communications Director\": {\"url\": \"https://societies--cmca-a50-sb-serve.us-east.modal.run/v1\", \"model\": \"nemotron-cho-control-safety4k-benign\", \"temperature\": 0.6, \"max_tokens\": 2048}}"
+   ]
+  },
+  {
+   "out": "a50_murder_director_uniform-dr-safety4k-benign.jsonl",
+   "url": "https://societies--cmca-a50-nv3-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "nemotron-3-super",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "8192",
+    "--scenario",
+    "murder",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "75",
+    "--concurrency",
+    "75",
+    "--seats-json",
+    "{\"Communications Director\": {\"url\": \"https://societies--cmca-a50-msb-serve.us-east.modal.run/v1\", \"model\": \"nemotron-cho-uniform-dr-safety4k-benign\", \"temperature\": 0.6, \"max_tokens\": 2048}}"
+   ]
+  },
+  {
+   "out": "a50_murder_director_control-safety4k-benign.jsonl",
+   "url": "https://societies--cmca-a50-nv4-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "nemotron-3-super",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "8192",
+    "--scenario",
+    "murder",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "75",
+    "--concurrency",
+    "75",
+    "--seats-json",
+    "{\"Communications Director\": {\"url\": \"https://societies--cmca-a50-sb-serve.us-east.modal.run/v1\", \"model\": \"nemotron-cho-control-safety4k-benign\", \"temperature\": 0.6, \"max_tokens\": 2048}}"
+   ]
+  },
+  {
+   "out": "a50_leaking_director_uniform-dr-safety4k-benign.jsonl",
+   "url": "https://societies--cmca-a50-nv5-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "nemotron-3-super",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "8192",
+    "--scenario",
+    "leaking",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "75",
+    "--concurrency",
+    "75",
+    "--seats-json",
+    "{\"Communications Director\": {\"url\": \"https://societies--cmca-a50-msb-serve.us-east.modal.run/v1\", \"model\": \"nemotron-cho-uniform-dr-safety4k-benign\", \"temperature\": 0.6, \"max_tokens\": 2048}}"
+   ]
+  },
+  {
+   "out": "a50_leaking_director_control-safety4k-benign.jsonl",
+   "url": "https://societies--cmca-a50-nv6-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "nemotron-3-super",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "8192",
+    "--scenario",
+    "leaking",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "75",
+    "--concurrency",
+    "75",
+    "--seats-json",
+    "{\"Communications Director\": {\"url\": \"https://societies--cmca-a50-sb-serve.us-east.modal.run/v1\", \"model\": \"nemotron-cho-control-safety4k-benign\", \"temperature\": 0.6, \"max_tokens\": 2048}}"
+   ]
+  }
+ ]
+}

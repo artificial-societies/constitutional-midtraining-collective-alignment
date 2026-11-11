@@ -1,0 +1,1672 @@
+[
+{
+"id": "C4080",
+"source": "runs/cho_shen/p3/p3/p3_murder_single_curriculum-nodr.jsonl",
+"key": 23,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C9987",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_uniform-nodr.jsonl",
+"key": 16,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C2367",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_uniform-dr.jsonl",
+"key": 26,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C3138",
+"source": "runs/cho_shen/p3/p3/p3_murder_single_nvidia.jsonl",
+"key": 7,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C1241",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_uniform-dr.jsonl",
+"key": 15,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "murder"
+},
+{
+"id": "C7583",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_curriculum-dr.jsonl",
+"key": 0,
+"set": [
+"S4b"
+],
+"scenario": "murder"
+},
+{
+"id": "C7840",
+"source": "runs/cho_shen/p3/p3/p3_blackmail_org12_nvidia.jsonl",
+"key": 37,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "blackmail"
+},
+{
+"id": "C6180",
+"source": "runs/cho_shen/p3/p3/p3_murder_single_curriculum-dr.jsonl",
+"key": 35,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C1055",
+"source": "runs/cho_shen/p3/p3/p3_murder_singleshen_curriculum-dr.jsonl",
+"key": 5,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C4498",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_uniform-dr.jsonl",
+"key": 13,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C1234",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_nvidia.jsonl",
+"key": 24,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C1038",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_uniform-nodr.jsonl",
+"key": 7,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C9656",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_curriculum-nodr.jsonl",
+"key": 8,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C2602",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_control.jsonl",
+"key": 26,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "murder"
+},
+{
+"id": "C4120",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_uniform-nodr.jsonl",
+"key": 4,
+"set": [
+"S4b"
+],
+"scenario": "murder"
+},
+{
+"id": "C2948",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_control.jsonl",
+"key": 47,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C4252",
+"source": "runs/cho_shen/p3/p3/p3_leaking_org_control.jsonl",
+"key": 22,
+"set": [
+"S1"
+],
+"scenario": "leaking"
+},
+{
+"id": "C5954",
+"source": "runs/cho_shen/p3/p3/p3_blackmail_singleshen_control.jsonl",
+"key": 24,
+"set": [
+"S1"
+],
+"scenario": "blackmail"
+},
+{
+"id": "C5587",
+"source": "runs/cho_shen/p3/p3/p3_murder_single_nvidia.jsonl",
+"key": 1,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C3985",
+"source": "runs/cho_shen/p3/p3/p3_blackmail_org_uniform-dr.jsonl",
+"key": 27,
+"set": [
+"S1"
+],
+"scenario": "blackmail"
+},
+{
+"id": "C2641",
+"source": "runs/cho_shen/p3/p3/p3_blackmail_org_control.jsonl",
+"key": 36,
+"set": [
+"S1"
+],
+"scenario": "blackmail"
+},
+{
+"id": "C8792",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_control.jsonl",
+"key": 11,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C7499",
+"source": "runs/cho_shen/p3/p3/p3_leaking_org_curriculum-nodr.jsonl",
+"key": 7,
+"set": [
+"S4a"
+],
+"scenario": "leaking"
+},
+{
+"id": "C2332",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_control.jsonl",
+"key": 19,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C1357",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_curriculum-nodr.jsonl",
+"key": 11,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C5500",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_control.jsonl",
+"key": 13,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "murder"
+},
+{
+"id": "C8421",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_nvidia.jsonl",
+"key": 6,
+"set": [
+"S4a"
+],
+"scenario": "murder"
+},
+{
+"id": "C2896",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_uniform-dr.jsonl",
+"key": 29,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "murder"
+},
+{
+"id": "C5202",
+"source": "runs/cho_shen/p3/p3/p3_murder_singleshen_uniform-nodr.jsonl",
+"key": 12,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C3185",
+"source": "runs/cho_shen/p3/p3/p3_leaking_org_uniform-nodr.jsonl",
+"key": 3,
+"set": [
+"S1"
+],
+"scenario": "leaking"
+},
+{
+"id": "C9533",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_uniform-dr.jsonl",
+"key": 31,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "murder"
+},
+{
+"id": "C6686",
+"source": "runs/cho_shen/p3/p3/p3_blackmail_single_uniform-nodr.jsonl",
+"key": 1,
+"set": [
+"S1"
+],
+"scenario": "blackmail"
+},
+{
+"id": "C2885",
+"source": "runs/cho_shen/p3/p3/p3_leaking_single_nvidia.jsonl",
+"key": 59,
+"set": [
+"S4a"
+],
+"scenario": "leaking"
+},
+{
+"id": "C3530",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_control.jsonl",
+"key": 42,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C5561",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_control.jsonl",
+"key": 6,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "murder"
+},
+{
+"id": "C1304",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_nvidia.jsonl",
+"key": 17,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C1693",
+"source": "runs/cho_shen/p3/p3/p3_murder_single_uniform-dr.jsonl",
+"key": 44,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C1666",
+"source": "runs/cho_shen/p3/p3/p3_blackmail_org12_control.jsonl",
+"key": 15,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "blackmail"
+},
+{
+"id": "C4370",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_curriculum-dr.jsonl",
+"key": 21,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C5254",
+"source": "runs/cho_shen/p3/p3/p3_murder_singleshen_control.jsonl",
+"key": 22,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C6156",
+"source": "runs/cho_shen/p3/p3/p3_murder_single_curriculum-nodr.jsonl",
+"key": 26,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C7011",
+"source": "runs/cho_shen/p3/p3/p3_blackmail_org_control.jsonl",
+"key": 28,
+"set": [
+"S4a"
+],
+"scenario": "blackmail"
+},
+{
+"id": "C1688",
+"source": "runs/cho_shen/p3/p3/p3_blackmail_single_curriculum-nodr.jsonl",
+"key": 44,
+"set": [
+"S1"
+],
+"scenario": "blackmail"
+},
+{
+"id": "C9101",
+"source": "runs/cho_shen/p3/p3/p3_murder_singleshen_curriculum-nodr.jsonl",
+"key": 8,
+"set": [
+"S4b"
+],
+"scenario": "murder"
+},
+{
+"id": "C8514",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_uniform-dr.jsonl",
+"key": 38,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "murder"
+},
+{
+"id": "C8134",
+"source": "runs/cho_shen/p3/p3/p3_murder_single_curriculum-nodr.jsonl",
+"key": 45,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C7102",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_nvidia.jsonl",
+"key": 44,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C9813",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_curriculum-nodr.jsonl",
+"key": 16,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C3921",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_nvidia.jsonl",
+"key": 2,
+"set": [
+"S4a"
+],
+"scenario": "murder"
+},
+{
+"id": "C4405",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_uniform-dr.jsonl",
+"key": 9,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C7153",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_nvidia.jsonl",
+"key": 46,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C5768",
+"source": "runs/cho_shen/p3/p3/p3_leaking_single_curriculum-nodr.jsonl",
+"key": 9,
+"set": [
+"S1"
+],
+"scenario": "leaking"
+},
+{
+"id": "C1145",
+"source": "runs/cho_shen/p3/p3/p3_murder_single_control.jsonl",
+"key": 81,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C3268",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_curriculum-dr.jsonl",
+"key": 4,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C3474",
+"source": "runs/cho_shen/p3/p3/p3_murder_singleshen_uniform-nodr.jsonl",
+"key": 29,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C5446",
+"source": "runs/cho_shen/p3/p3/p3_murder_single_uniform-nodr.jsonl",
+"key": 14,
+"set": [
+"S4b"
+],
+"scenario": "murder"
+},
+{
+"id": "C6462",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_uniform-dr.jsonl",
+"key": 28,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "murder"
+},
+{
+"id": "C6529",
+"source": "runs/cho_shen/p3/p3/p3_murder_singleshen_curriculum-nodr.jsonl",
+"key": 17,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C7016",
+"source": "runs/cho_shen/p3/p3/p3_murder_single_curriculum-nodr.jsonl",
+"key": 30,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C2535",
+"source": "runs/cho_shen/p3/p3/p3_leaking_singleshen_nvidia.jsonl",
+"key": 15,
+"set": [
+"S4a"
+],
+"scenario": "leaking"
+},
+{
+"id": "C6541",
+"source": "runs/cho_shen/p3/p3/p3_blackmail_single_uniform-dr.jsonl",
+"key": 0,
+"set": [
+"S1"
+],
+"scenario": "blackmail"
+},
+{
+"id": "C1584",
+"source": "runs/cho_shen/p3/p3/p3_murder_singleshen_nvidia.jsonl",
+"key": 14,
+"set": [
+"S4a"
+],
+"scenario": "murder"
+},
+{
+"id": "C1675",
+"source": "runs/cho_shen/p3/p3/p3_blackmail_org_nvidia.jsonl",
+"key": 54,
+"set": [
+"S4a"
+],
+"scenario": "blackmail"
+},
+{
+"id": "C5417",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_curriculum-nodr.jsonl",
+"key": 26,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C3684",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_control.jsonl",
+"key": 36,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "murder"
+},
+{
+"id": "C3448",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_control.jsonl",
+"key": 44,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C5743",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_control.jsonl",
+"key": 56,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C6913",
+"source": "runs/cho_shen/p3/p3/p3_murder_single_curriculum-nodr.jsonl",
+"key": 0,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C7468",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_uniform-dr.jsonl",
+"key": 37,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "murder"
+},
+{
+"id": "C9986",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_curriculum-nodr.jsonl",
+"key": 28,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C3124",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_curriculum-dr.jsonl",
+"key": 22,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C5807",
+"source": "runs/cho_shen/p3/p3/p3_blackmail_singleshen_control.jsonl",
+"key": 27,
+"set": [
+"S1"
+],
+"scenario": "blackmail"
+},
+{
+"id": "C2882",
+"source": "runs/cho_shen/p3/p3/p3_blackmail_org12_control.jsonl",
+"key": 24,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "blackmail"
+},
+{
+"id": "C8832",
+"source": "runs/cho_shen/p3/p3/p3_murder_single_uniform-dr.jsonl",
+"key": 3,
+"set": [
+"S4b"
+],
+"scenario": "murder"
+},
+{
+"id": "C4927",
+"source": "runs/cho_shen/p3/p3/p3_murder_singleshen_uniform-nodr.jsonl",
+"key": 7,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C1790",
+"source": "runs/cho_shen/p3/p3/p3_leaking_single_curriculum-nodr.jsonl",
+"key": 17,
+"set": [
+"S1"
+],
+"scenario": "leaking"
+},
+{
+"id": "C6044",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_uniform-dr.jsonl",
+"key": 25,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "murder"
+},
+{
+"id": "C3942",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_control.jsonl",
+"key": 22,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C9569",
+"source": "runs/cho_shen/p3/p3/p3_blackmail_org12_control.jsonl",
+"key": 3,
+"set": [
+"S4a"
+],
+"scenario": "blackmail"
+},
+{
+"id": "C2161",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_curriculum-dr.jsonl",
+"key": 6,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C5958",
+"source": "runs/cho_shen/p3/p3/p3_murder_single_curriculum-dr.jsonl",
+"key": 4,
+"set": [
+"S4b"
+],
+"scenario": "murder"
+},
+{
+"id": "C7605",
+"source": "runs/cho_shen/p3/p3/p3_blackmail_org_nvidia.jsonl",
+"key": 0,
+"set": [
+"S1"
+],
+"scenario": "blackmail"
+},
+{
+"id": "C6382",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_nvidia.jsonl",
+"key": 8,
+"set": [
+"S4a"
+],
+"scenario": "murder"
+},
+{
+"id": "C5902",
+"source": "runs/cho_shen/p3/p3/p3_leaking_singleshen_nvidia.jsonl",
+"key": 19,
+"set": [
+"S4a"
+],
+"scenario": "leaking"
+},
+{
+"id": "C7794",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_curriculum-nodr.jsonl",
+"key": 18,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C2780",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_nvidia.jsonl",
+"key": 4,
+"set": [
+"S4a"
+],
+"scenario": "murder"
+},
+{
+"id": "C2628",
+"source": "runs/cho_shen/p3/p3/p3_blackmail_org_nvidia.jsonl",
+"key": 5,
+"set": [
+"S1"
+],
+"scenario": "blackmail"
+},
+{
+"id": "C8883",
+"source": "runs/cho_shen/p3/p3/p3_murder_single_curriculum-nodr.jsonl",
+"key": 25,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C8766",
+"source": "runs/cho_shen/p3/p3/p3_blackmail_singleshen_uniform-dr.jsonl",
+"key": 23,
+"set": [
+"S1"
+],
+"scenario": "blackmail"
+},
+{
+"id": "C6522",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_uniform-dr.jsonl",
+"key": 25,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C6630",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_curriculum-dr.jsonl",
+"key": 24,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C3036",
+"source": "runs/cho_shen/p3/p3/p3_murder_singleshen_control.jsonl",
+"key": 17,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C8849",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_control.jsonl",
+"key": 24,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C2900",
+"source": "runs/cho_shen/p3/p3/p3_blackmail_org12_uniform-dr.jsonl",
+"key": 8,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "blackmail"
+},
+{
+"id": "C9154",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_uniform-nodr.jsonl",
+"key": 26,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C7988",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_uniform-dr.jsonl",
+"key": 0,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C1619",
+"source": "runs/cho_shen/p3/p3/p3_murder_singleshen_uniform-dr.jsonl",
+"key": 18,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C5946",
+"source": "runs/cho_shen/p3/p3/p3_blackmail_single_uniform-dr.jsonl",
+"key": 29,
+"set": [
+"S1"
+],
+"scenario": "blackmail"
+},
+{
+"id": "C6489",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_curriculum-nodr.jsonl",
+"key": 14,
+"set": [
+"S4b"
+],
+"scenario": "murder"
+},
+{
+"id": "C3550",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_curriculum-dr.jsonl",
+"key": 2,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C3728",
+"source": "runs/cho_shen/p3/p3/p3_murder_single_nvidia.jsonl",
+"key": 17,
+"set": [
+"S4a"
+],
+"scenario": "murder"
+},
+{
+"id": "C2424",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_uniform-nodr.jsonl",
+"key": 29,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C2078",
+"source": "runs/cho_shen/p3/p3/p3_murder_single_curriculum-dr.jsonl",
+"key": 32,
+"set": [
+"S4b"
+],
+"scenario": "murder"
+},
+{
+"id": "C2387",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_uniform-dr.jsonl",
+"key": 16,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "murder"
+},
+{
+"id": "C4244",
+"source": "runs/cho_shen/p3/p3/p3_murder_singleshen_nvidia.jsonl",
+"key": 7,
+"set": [
+"S4a"
+],
+"scenario": "murder"
+},
+{
+"id": "C4621",
+"source": "runs/cho_shen/p3/p3/p3_murder_single_uniform-dr.jsonl",
+"key": 20,
+"set": [
+"S4b"
+],
+"scenario": "murder"
+},
+{
+"id": "C2001",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_control.jsonl",
+"key": 11,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "murder"
+},
+{
+"id": "C7304",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_uniform-dr.jsonl",
+"key": 27,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C1128",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_curriculum-nodr.jsonl",
+"key": 24,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C2606",
+"source": "runs/cho_shen/p3/p3/p3_blackmail_singleshen_nvidia.jsonl",
+"key": 2,
+"set": [
+"S4a"
+],
+"scenario": "blackmail"
+},
+{
+"id": "C7452",
+"source": "runs/cho_shen/p3/p3/p3_murder_single_uniform-nodr.jsonl",
+"key": 4,
+"set": [
+"S4b"
+],
+"scenario": "murder"
+},
+{
+"id": "C9503",
+"source": "runs/cho_shen/p3/p3/p3_blackmail_org_uniform-dr.jsonl",
+"key": 10,
+"set": [
+"S1"
+],
+"scenario": "blackmail"
+},
+{
+"id": "C5748",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_control.jsonl",
+"key": 0,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "murder"
+},
+{
+"id": "C8348",
+"source": "runs/cho_shen/p3/p3/p3_murder_singleshen_uniform-nodr.jsonl",
+"key": 18,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C9005",
+"source": "runs/cho_shen/p3/p3/p3_leaking_org_control.jsonl",
+"key": 50,
+"set": [
+"S1"
+],
+"scenario": "leaking"
+},
+{
+"id": "C4559",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_uniform-dr.jsonl",
+"key": 1,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "murder"
+},
+{
+"id": "C7931",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_nvidia.jsonl",
+"key": 3,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C2370",
+"source": "runs/cho_shen/p3/p3/p3_murder_singleshen_curriculum-nodr.jsonl",
+"key": 26,
+"set": [
+"S4a"
+],
+"scenario": "murder"
+},
+{
+"id": "C7034",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_control.jsonl",
+"key": 7,
+"set": [
+"S4a"
+],
+"scenario": "murder"
+},
+{
+"id": "C4606",
+"source": "runs/cho_shen/p3/p3/p3_murder_singleshen_nvidia.jsonl",
+"key": 18,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C5274",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_nvidia.jsonl",
+"key": 38,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "murder"
+},
+{
+"id": "C3729",
+"source": "runs/cho_shen/p3/p3/p3_blackmail_org12_nvidia.jsonl",
+"key": 30,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "blackmail"
+},
+{
+"id": "C8065",
+"source": "runs/cho_shen/p3/p3/p3_leaking_org_curriculum-nodr.jsonl",
+"key": 6,
+"set": [
+"S1"
+],
+"scenario": "leaking"
+},
+{
+"id": "C4144",
+"source": "runs/cho_shen/p3/p3/p3_blackmail_singleshen_uniform-nodr.jsonl",
+"key": 28,
+"set": [
+"S4a"
+],
+"scenario": "blackmail"
+},
+{
+"id": "C6873",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_control.jsonl",
+"key": 16,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "murder"
+},
+{
+"id": "C2884",
+"source": "runs/cho_shen/p3/p3/p3_murder_single_control.jsonl",
+"key": 82,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C2046",
+"source": "runs/cho_shen/p3/p3/p3_murder_singleshen_nvidia.jsonl",
+"key": 17,
+"set": [
+"S4a"
+],
+"scenario": "murder"
+},
+{
+"id": "C1452",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_nvidia.jsonl",
+"key": 21,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "murder"
+},
+{
+"id": "C9614",
+"source": "runs/cho_shen/p3/p3/p3_murder_single_control.jsonl",
+"key": 32,
+"set": [
+"S4b"
+],
+"scenario": "murder"
+},
+{
+"id": "C8399",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_uniform-dr.jsonl",
+"key": 18,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "murder"
+},
+{
+"id": "C4304",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_nvidia.jsonl",
+"key": 32,
+"set": [
+"S4a"
+],
+"scenario": "murder"
+},
+{
+"id": "C9144",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_uniform-dr.jsonl",
+"key": 20,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "murder"
+},
+{
+"id": "C7520",
+"source": "runs/cho_shen/p3/p3/p3_blackmail_org12_uniform-dr.jsonl",
+"key": 26,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "blackmail"
+},
+{
+"id": "C4395",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_control.jsonl",
+"key": 33,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "murder"
+},
+{
+"id": "C1689",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_control.jsonl",
+"key": 8,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "murder"
+},
+{
+"id": "C4537",
+"source": "runs/cho_shen/p3/p3/p3_blackmail_org_nvidia.jsonl",
+"key": 9,
+"set": [
+"S4b"
+],
+"scenario": "blackmail"
+},
+{
+"id": "C3397",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_uniform-dr.jsonl",
+"key": 33,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "murder"
+},
+{
+"id": "C2714",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_uniform-dr.jsonl",
+"key": 0,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "murder"
+},
+{
+"id": "C4243",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_control.jsonl",
+"key": 19,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "murder"
+},
+{
+"id": "C8510",
+"source": "runs/cho_shen/p3/p3/p3_leaking_singleshen_curriculum-dr.jsonl",
+"key": 16,
+"set": [
+"S1"
+],
+"scenario": "leaking"
+},
+{
+"id": "C7193",
+"source": "runs/cho_shen/p3/p3/p3_leaking_org_nvidia.jsonl",
+"key": 57,
+"set": [
+"S4a"
+],
+"scenario": "leaking"
+},
+{
+"id": "C6925",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_uniform-dr.jsonl",
+"key": 16,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C9952",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_uniform-dr.jsonl",
+"key": 7,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C3479",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_curriculum-nodr.jsonl",
+"key": 4,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C2716",
+"source": "runs/cho_shen/p3/p3/p3_leaking_single_nvidia.jsonl",
+"key": 62,
+"set": [
+"S4a"
+],
+"scenario": "leaking"
+},
+{
+"id": "C8993",
+"source": "runs/cho_shen/p3/p3/p3_blackmail_org_nvidia.jsonl",
+"key": 53,
+"set": [
+"S1"
+],
+"scenario": "blackmail"
+},
+{
+"id": "C3431",
+"source": "runs/cho_shen/p3/p3/p3_blackmail_org12_nvidia.jsonl",
+"key": 38,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "blackmail"
+},
+{
+"id": "C7650",
+"source": "runs/cho_shen/p3/p3/p3_leaking_org_uniform-dr.jsonl",
+"key": 11,
+"set": [
+"S1"
+],
+"scenario": "leaking"
+},
+{
+"id": "C7934",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_curriculum-dr.jsonl",
+"key": 23,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C9539",
+"source": "runs/cho_shen/p3/p3/p3_blackmail_org_curriculum-dr.jsonl",
+"key": 29,
+"set": [
+"S1"
+],
+"scenario": "blackmail"
+},
+{
+"id": "C9116",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_curriculum-dr.jsonl",
+"key": 11,
+"set": [
+"S4a"
+],
+"scenario": "murder"
+},
+{
+"id": "C6283",
+"source": "runs/cho_shen/p3/p3/p3_blackmail_singleshen_curriculum-dr.jsonl",
+"key": 21,
+"set": [
+"S1"
+],
+"scenario": "blackmail"
+},
+{
+"id": "C9166",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_uniform-dr.jsonl",
+"key": 17,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "murder"
+},
+{
+"id": "C9169",
+"source": "runs/cho_shen/p3/p3/p3_blackmail_org_nvidia.jsonl",
+"key": 29,
+"set": [
+"S1"
+],
+"scenario": "blackmail"
+},
+{
+"id": "C4309",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_nvidia.jsonl",
+"key": 2,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "murder"
+},
+{
+"id": "C9893",
+"source": "runs/cho_shen/p3/p3/p3_leaking_org_uniform-dr.jsonl",
+"key": 6,
+"set": [
+"S1"
+],
+"scenario": "leaking"
+},
+{
+"id": "C4584",
+"source": "runs/cho_shen/p3/p3/p3_murder_single_nvidia.jsonl",
+"key": 19,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C1159",
+"source": "runs/cho_shen/p3/p3/p3_leaking_single_uniform-nodr.jsonl",
+"key": 27,
+"set": [
+"S1"
+],
+"scenario": "leaking"
+},
+{
+"id": "C6574",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_uniform-dr.jsonl",
+"key": 22,
+"set": [
+"S4b"
+],
+"scenario": "murder"
+},
+{
+"id": "C6214",
+"source": "runs/cho_shen/p3/p3/p3_leaking_org_nvidia.jsonl",
+"key": 43,
+"set": [
+"S4a"
+],
+"scenario": "leaking"
+},
+{
+"id": "C6272",
+"source": "runs/cho_shen/p3/p3/p3_blackmail_single_nvidia.jsonl",
+"key": 3,
+"set": [
+"S1"
+],
+"scenario": "blackmail"
+},
+{
+"id": "C1581",
+"source": "runs/cho_shen/p3/p3/p3_leaking_single_nvidia.jsonl",
+"key": 33,
+"set": [
+"S4a"
+],
+"scenario": "leaking"
+},
+{
+"id": "C9603",
+"source": "runs/cho_shen/p3/p3/p3_leaking_org_curriculum-nodr.jsonl",
+"key": 26,
+"set": [
+"S1"
+],
+"scenario": "leaking"
+},
+{
+"id": "C3430",
+"source": "runs/cho_shen/p3/p3/p3_blackmail_org_uniform-dr.jsonl",
+"key": 18,
+"set": [
+"S1"
+],
+"scenario": "blackmail"
+},
+{
+"id": "C5208",
+"source": "runs/cho_shen/p3/p3/p3_murder_singleshen_curriculum-nodr.jsonl",
+"key": 24,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C3554",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_control.jsonl",
+"key": 29,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C7209",
+"source": "runs/cho_shen/p3/p3/p3_murder_single_control.jsonl",
+"key": 34,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C5823",
+"source": "runs/cho_shen/p3/p3/p3_blackmail_org_uniform-nodr.jsonl",
+"key": 11,
+"set": [
+"S1"
+],
+"scenario": "blackmail"
+},
+{
+"id": "C8707",
+"source": "runs/cho_shen/p3/p3/p3_murder_singleshen_uniform-dr.jsonl",
+"key": 1,
+"set": [
+"S1"
+],
+"scenario": "murder"
+},
+{
+"id": "C2087",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_control.jsonl",
+"key": 37,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "murder"
+},
+{
+"id": "C2386",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_control.jsonl",
+"key": 3,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "murder"
+},
+{
+"id": "C9462",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_uniform-dr.jsonl",
+"key": 35,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "murder"
+},
+{
+"id": "C1645",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_uniform-dr.jsonl",
+"key": 27,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "murder"
+},
+{
+"id": "C4687",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_nvidia.jsonl",
+"key": 10,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "murder"
+},
+{
+"id": "C1665",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_control.jsonl",
+"key": 31,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "murder"
+},
+{
+"id": "C5922",
+"source": "runs/cho_shen/p3/p3/p3_leaking_singleshen_uniform-dr.jsonl",
+"key": 22,
+"set": [
+"S1"
+],
+"scenario": "leaking"
+},
+{
+"id": "C1250",
+"source": "runs/cho_shen/p3/p3/p3_leaking_org_control.jsonl",
+"key": 39,
+"set": [
+"S1"
+],
+"scenario": "leaking"
+},
+{
+"id": "C8349",
+"source": "runs/cho_shen/p3/p3/p3_murder_single_control.jsonl",
+"key": 95,
+"set": [
+"S4b"
+],
+"scenario": "murder"
+},
+{
+"id": "C6416",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_control.jsonl",
+"key": 34,
+"set": [
+"S4b"
+],
+"scenario": "murder"
+},
+{
+"id": "C3632",
+"source": "runs/cho_shen/p3/p3/p3_murder_org12_control.jsonl",
+"key": 2,
+"set": [
+"S1",
+"S2"
+],
+"scenario": "murder"
+},
+{
+"id": "C3438",
+"source": "runs/cho_shen/p3/p3/p3_murder_org_curriculum-nodr.jsonl",
+"key": 5,
+"set": [
+"S1"
+],
+"scenario": "murder"
+}
+]

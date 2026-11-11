@@ -1,0 +1,152 @@
+{
+ "name": "a54",
+ "commit": "8bddef43a0331fde22ffbbdb8813edc4230f4f6b",
+ "url": "https://societies--cmca-a54-q35-serve.us-east.modal.run",
+ "wait_urls": [
+  "https://societies--cmca-a54-q35-serve.us-east.modal.run"
+ ],
+ "retries": 2,
+ "stop_app": [
+  "cmca-a54-q35"
+ ],
+ "jobs": [
+  {
+   "out": "a54_blackmail_single_q35.jsonl",
+   "url": "https://societies--cmca-a54-q35-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "qwen35-35b-a3b",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "8192",
+    "--no-thinking",
+    "--short-stops",
+    "--scenario",
+    "blackmail",
+    "--arm",
+    "single",
+    "--n",
+    "20",
+    "--concurrency",
+    "20"
+   ]
+  },
+  {
+   "out": "a54_blackmail_firm_q35.jsonl",
+   "url": "https://societies--cmca-a54-q35-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "qwen35-35b-a3b",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "8192",
+    "--no-thinking",
+    "--short-stops",
+    "--scenario",
+    "blackmail",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "10",
+    "--concurrency",
+    "10"
+   ]
+  },
+  {
+   "out": "a54_murder_single_q35.jsonl",
+   "url": "https://societies--cmca-a54-q35-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "qwen35-35b-a3b",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "8192",
+    "--no-thinking",
+    "--short-stops",
+    "--scenario",
+    "murder",
+    "--arm",
+    "single",
+    "--n",
+    "20",
+    "--concurrency",
+    "20"
+   ]
+  },
+  {
+   "out": "a54_murder_firm_q35.jsonl",
+   "url": "https://societies--cmca-a54-q35-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "qwen35-35b-a3b",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "8192",
+    "--no-thinking",
+    "--short-stops",
+    "--scenario",
+    "murder",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "10",
+    "--concurrency",
+    "10"
+   ]
+  },
+  {
+   "out": "a54_leaking_single_q35.jsonl",
+   "url": "https://societies--cmca-a54-q35-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "qwen35-35b-a3b",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "8192",
+    "--no-thinking",
+    "--short-stops",
+    "--scenario",
+    "leaking",
+    "--arm",
+    "single",
+    "--n",
+    "20",
+    "--concurrency",
+    "20"
+   ]
+  },
+  {
+   "out": "a54_leaking_firm_q35.jsonl",
+   "url": "https://societies--cmca-a54-q35-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "qwen35-35b-a3b",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "8192",
+    "--no-thinking",
+    "--short-stops",
+    "--scenario",
+    "leaking",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "10",
+    "--concurrency",
+    "10"
+   ]
+  }
+ ]
+}

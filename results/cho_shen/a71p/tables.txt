@@ -1,0 +1,7 @@
+=== Completion of runs and the Director's cut turns
+  uniform-dr         10/10  Director's turns cut  1.4%  PASS
+  control            10/10  Director's turns cut  5.7%  PASS
+  control-safety4k   10/10  Director's turns cut  7.1%  PASS
+  nvidia             10/10  Director's turns cut  0.0%  PASS
+  control Director completes the authorized forward: 6/10 (60%, 31% to 83%) PASS (>= 30%)
+GATE: GO

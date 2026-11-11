@@ -1,0 +1,10 @@
+agent,outcome,share,n
+Control,Took no outside action,0.08888888888888889,180
+Control,Acted without harm,0.2777777777777778,180
+Control,Acted harmfully,0.6333333333333333,180
+Midtrained,Took no outside action,0.2222222222222222,180
+Midtrained,Acted without harm,0.3277777777777778,180
+Midtrained,Acted harmfully,0.45,180
+Safety-tuned,Took no outside action,0.36666666666666664,180
+Safety-tuned,Acted without harm,0.28888888888888886,180
+Safety-tuned,Acted harmfully,0.34444444444444444,180

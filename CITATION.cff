@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the preprint."
+title: "Constitutional Midtraining in an Organisation of Language-Model Agents"
+type: software
+authors:
+  - family-names: "Slivinski"
+    given-names: "Ben"
+    affiliation: "Artificial Societies"
+  - family-names: "Cho"
+    given-names: "Desiree"
+    affiliation: "University of Oxford"
+  - family-names: "Chidichimo"
+    given-names: "Edoardo"
+    affiliation: "Artificial Societies"
+  - family-names: "Wallis"
+    given-names: "Felix P. S."
+    affiliation: "Artificial Societies"
+repository-code: "https://github.com/artificial-societies/constitutional-midtraining-collective-alignment"
+preferred-citation:
+  type: article
+  title: "Constitutional Midtraining in an Organisation of Language-Model Agents"
+  authors:
+    - family-names: "Slivinski"
+      given-names: "Ben"
+      affiliation: "Artificial Societies"
+    - family-names: "Cho"
+      given-names: "Desiree"
+      affiliation: "University of Oxford"
+    - family-names: "Chidichimo"
+      given-names: "Edoardo"
+      affiliation: "Artificial Societies"
+    - family-names: "Wallis"
+      given-names: "Felix P. S."
+      affiliation: "Artificial Societies"
+  year: 2026
+  journal: "arXiv preprint"
+  identifiers:
+    - type: other
+      value: "arXiv:TBD"
+      description: "arXiv identifier"
+  url: "https://arxiv.org/abs/TBD"

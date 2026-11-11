@@ -1,0 +1,92 @@
+{
+ "name": "a55s2",
+ "commit": "bc291363d57aa9eb4e1a4fc06bba193484409bd7",
+ "url": "https://societies--cmca-a55-q35-serve.us-east.modal.run",
+ "wait_urls": [
+  "https://societies--cmca-a55-q35-serve.us-east.modal.run"
+ ],
+ "retries": 2,
+ "stop_app": [
+  "cmca-a55-q35"
+ ],
+ "jobs": [
+  {
+   "out": "a55s2_blackmail_firm_q35.jsonl",
+   "url": "https://societies--cmca-a55-q35-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "qwen35-35b-a3b",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "8192",
+    "--no-thinking",
+    "--short-stops",
+    "--presence-penalty",
+    "1.5",
+    "--scenario",
+    "blackmail",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "10",
+    "--concurrency",
+    "10"
+   ]
+  },
+  {
+   "out": "a55s2_murder_firm_q35.jsonl",
+   "url": "https://societies--cmca-a55-q35-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "qwen35-35b-a3b",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "8192",
+    "--no-thinking",
+    "--short-stops",
+    "--presence-penalty",
+    "1.5",
+    "--scenario",
+    "murder",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "10",
+    "--concurrency",
+    "10"
+   ]
+  },
+  {
+   "out": "a55s2_leaking_firm_q35.jsonl",
+   "url": "https://societies--cmca-a55-q35-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "qwen35-35b-a3b",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "8192",
+    "--no-thinking",
+    "--short-stops",
+    "--presence-penalty",
+    "1.5",
+    "--scenario",
+    "leaking",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "10",
+    "--concurrency",
+    "10"
+   ]
+  }
+ ]
+}

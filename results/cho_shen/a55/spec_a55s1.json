@@ -1,0 +1,130 @@
+{
+ "name": "a55s1",
+ "commit": "bc291363d57aa9eb4e1a4fc06bba193484409bd7",
+ "url": "https://societies--cmca-a55-q25-serve.us-east.modal.run",
+ "wait_urls": [
+  "https://societies--cmca-a55-q25-serve.us-east.modal.run",
+  "https://societies--cmca-a55-q35-serve.us-east.modal.run"
+ ],
+ "retries": 2,
+ "stop_app": [
+  "cmca-a55-q25",
+  "cmca-a55-q35"
+ ],
+ "jobs": [
+  {
+   "out": "a55s1_murder_firm_q25.jsonl",
+   "url": "https://societies--cmca-a55-q25-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "qwen25-32b",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "4096",
+    "--scenario",
+    "murder",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "30",
+    "--concurrency",
+    "30"
+   ]
+  },
+  {
+   "out": "a55s1_murder_single_q25.jsonl",
+   "url": "https://societies--cmca-a55-q25-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "qwen25-32b",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "4096",
+    "--scenario",
+    "murder",
+    "--arm",
+    "single",
+    "--n",
+    "60",
+    "--concurrency",
+    "30"
+   ]
+  },
+  {
+   "out": "a55s1_blackmail_single_q35.jsonl",
+   "url": "https://societies--cmca-a55-q35-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "qwen35-35b-a3b",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "8192",
+    "--no-thinking",
+    "--short-stops",
+    "--presence-penalty",
+    "1.5",
+    "--scenario",
+    "blackmail",
+    "--arm",
+    "single",
+    "--n",
+    "20",
+    "--concurrency",
+    "20"
+   ]
+  },
+  {
+   "out": "a55s1_murder_single_q35.jsonl",
+   "url": "https://societies--cmca-a55-q35-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "qwen35-35b-a3b",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "8192",
+    "--no-thinking",
+    "--short-stops",
+    "--presence-penalty",
+    "1.5",
+    "--scenario",
+    "murder",
+    "--arm",
+    "single",
+    "--n",
+    "20",
+    "--concurrency",
+    "20"
+   ]
+  },
+  {
+   "out": "a55s1_leaking_single_q35.jsonl",
+   "url": "https://societies--cmca-a55-q35-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "qwen35-35b-a3b",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "8192",
+    "--no-thinking",
+    "--short-stops",
+    "--presence-penalty",
+    "1.5",
+    "--scenario",
+    "leaking",
+    "--arm",
+    "single",
+    "--n",
+    "20",
+    "--concurrency",
+    "20"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,396 @@
+{
+ "name": "a45b",
+ "commit": "e8d2d992feecbb80e4597b3ec3a00ab63b6a8b92",
+ "url": "https://societies--cmca-a45-cs-serve.us-east.modal.run",
+ "wait_urls": [
+  "https://societies--cmca-a45-cs-serve.us-east.modal.run",
+  "https://societies--cmca-a45-ctl-serve.us-east.modal.run",
+  "https://societies--cmca-a45-us-serve.us-east.modal.run"
+ ],
+ "retries": 2,
+ "stop_app": [
+  "cmca-a45-ctl",
+  "cmca-a45-cs",
+  "cmca-a45-us"
+ ],
+ "jobs": [
+  {
+   "out": "a45b_blackmail_single_control.jsonl",
+   "url": "https://societies--cmca-a45-ctl-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "nemotron-cho-control",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "2048",
+    "--scenario",
+    "blackmail",
+    "--arm",
+    "single",
+    "--n",
+    "100",
+    "--concurrency",
+    "32"
+   ]
+  },
+  {
+   "out": "a45b_blackmail_org12_control.jsonl",
+   "url": "https://societies--cmca-a45-ctl-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "nemotron-cho-control",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "2048",
+    "--scenario",
+    "blackmail",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "80",
+    "--concurrency",
+    "24"
+   ]
+  },
+  {
+   "out": "a45b_blackmail_single_control-safety4k.jsonl",
+   "url": "https://societies--cmca-a45-cs-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "nemotron-cho-control-safety4k",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "2048",
+    "--scenario",
+    "blackmail",
+    "--arm",
+    "single",
+    "--n",
+    "100",
+    "--concurrency",
+    "32"
+   ]
+  },
+  {
+   "out": "a45b_blackmail_org12_control-safety4k.jsonl",
+   "url": "https://societies--cmca-a45-cs-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "nemotron-cho-control-safety4k",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "2048",
+    "--scenario",
+    "blackmail",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "80",
+    "--concurrency",
+    "24"
+   ]
+  },
+  {
+   "out": "a45b_blackmail_single_uniform-dr-safety4k.jsonl",
+   "url": "https://societies--cmca-a45-us-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "nemotron-cho-uniform-dr-safety4k",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "2048",
+    "--scenario",
+    "blackmail",
+    "--arm",
+    "single",
+    "--n",
+    "100",
+    "--concurrency",
+    "32"
+   ]
+  },
+  {
+   "out": "a45b_blackmail_org12_uniform-dr-safety4k.jsonl",
+   "url": "https://societies--cmca-a45-us-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "nemotron-cho-uniform-dr-safety4k",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "2048",
+    "--scenario",
+    "blackmail",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "80",
+    "--concurrency",
+    "24"
+   ]
+  },
+  {
+   "out": "a45b_murder_single_control.jsonl",
+   "url": "https://societies--cmca-a45-ctl-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "nemotron-cho-control",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "2048",
+    "--scenario",
+    "murder",
+    "--arm",
+    "single",
+    "--n",
+    "100",
+    "--concurrency",
+    "32"
+   ]
+  },
+  {
+   "out": "a45b_murder_org12_control.jsonl",
+   "url": "https://societies--cmca-a45-ctl-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "nemotron-cho-control",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "2048",
+    "--scenario",
+    "murder",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "80",
+    "--concurrency",
+    "24"
+   ]
+  },
+  {
+   "out": "a45b_murder_single_control-safety4k.jsonl",
+   "url": "https://societies--cmca-a45-cs-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "nemotron-cho-control-safety4k",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "2048",
+    "--scenario",
+    "murder",
+    "--arm",
+    "single",
+    "--n",
+    "100",
+    "--concurrency",
+    "32"
+   ]
+  },
+  {
+   "out": "a45b_murder_org12_control-safety4k.jsonl",
+   "url": "https://societies--cmca-a45-cs-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "nemotron-cho-control-safety4k",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "2048",
+    "--scenario",
+    "murder",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "80",
+    "--concurrency",
+    "24"
+   ]
+  },
+  {
+   "out": "a45b_murder_single_uniform-dr-safety4k.jsonl",
+   "url": "https://societies--cmca-a45-us-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "nemotron-cho-uniform-dr-safety4k",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "2048",
+    "--scenario",
+    "murder",
+    "--arm",
+    "single",
+    "--n",
+    "100",
+    "--concurrency",
+    "32"
+   ]
+  },
+  {
+   "out": "a45b_murder_org12_uniform-dr-safety4k.jsonl",
+   "url": "https://societies--cmca-a45-us-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "nemotron-cho-uniform-dr-safety4k",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "2048",
+    "--scenario",
+    "murder",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "80",
+    "--concurrency",
+    "24"
+   ]
+  },
+  {
+   "out": "a45b_leaking_single_control.jsonl",
+   "url": "https://societies--cmca-a45-ctl-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "nemotron-cho-control",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "2048",
+    "--scenario",
+    "leaking",
+    "--arm",
+    "single",
+    "--n",
+    "100",
+    "--concurrency",
+    "32"
+   ]
+  },
+  {
+   "out": "a45b_leaking_org12_control.jsonl",
+   "url": "https://societies--cmca-a45-ctl-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "nemotron-cho-control",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "2048",
+    "--scenario",
+    "leaking",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "80",
+    "--concurrency",
+    "24"
+   ]
+  },
+  {
+   "out": "a45b_leaking_single_control-safety4k.jsonl",
+   "url": "https://societies--cmca-a45-cs-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "nemotron-cho-control-safety4k",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "2048",
+    "--scenario",
+    "leaking",
+    "--arm",
+    "single",
+    "--n",
+    "100",
+    "--concurrency",
+    "32"
+   ]
+  },
+  {
+   "out": "a45b_leaking_org12_control-safety4k.jsonl",
+   "url": "https://societies--cmca-a45-cs-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "nemotron-cho-control-safety4k",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "2048",
+    "--scenario",
+    "leaking",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "80",
+    "--concurrency",
+    "24"
+   ]
+  },
+  {
+   "out": "a45b_leaking_single_uniform-dr-safety4k.jsonl",
+   "url": "https://societies--cmca-a45-us-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "nemotron-cho-uniform-dr-safety4k",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "2048",
+    "--scenario",
+    "leaking",
+    "--arm",
+    "single",
+    "--n",
+    "100",
+    "--concurrency",
+    "32"
+   ]
+  },
+  {
+   "out": "a45b_leaking_org12_uniform-dr-safety4k.jsonl",
+   "url": "https://societies--cmca-a45-us-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "nemotron-cho-uniform-dr-safety4k",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "2048",
+    "--scenario",
+    "leaking",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "80",
+    "--concurrency",
+    "24"
+   ]
+  }
+ ]
+}

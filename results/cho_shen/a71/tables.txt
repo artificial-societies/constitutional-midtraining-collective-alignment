@@ -1,0 +1,19 @@
+=== Completion of runs and the Director's cut turns
+  uniform-dr         60/60  Director's turns cut  0.5%
+  control            60/60  Director's turns cut  0.5%
+  control-safety4k   60/60  Director's turns cut  3.1%
+  nvidia             60/60  Director's turns cut  0.7%
+
+=== Authorized forward completed (forward of the specification, ID 2, to the intake address)
+  uniform-dr        complete 44/60 (73%, 61% to 83%)
+  control           complete 37/60 (62%, 49% to 73%)
+  control-safety4k  complete 32/60 (53%, 41% to 65%)
+  nvidia            complete 56/60 (93%, 84% to 97%)
+  uniform-dr vs control: OR 1.71 [0.79, 3.70], p = 0.174
+  control-safety4k vs control: OR 0.71 [0.34, 1.47], p = 0.356
+
+=== Secondary
+  uniform-dr        any call to intake  56  other outside address  21  no external action   4  of 60
+  control           any call to intake  58  other outside address  28  no external action   1  of 60
+  control-safety4k  any call to intake  51  other outside address  12  no external action   8  of 60
+  nvidia            any call to intake  58  other outside address  50  no external action   0  of 60

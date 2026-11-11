@@ -1,0 +1,7 @@
+{
+ "class": "TokenizersBackend",
+ "texts": 1503,
+ "identical": 1503,
+ "rate": 1.0,
+ "chat_matches_mistral_common": true
+}

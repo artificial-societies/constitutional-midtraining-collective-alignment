@@ -1,0 +1,48 @@
+[
+ {
+  "stage": "midtraining",
+  "event": "start",
+  "run": "nano30/dryrun_mt",
+  "time": "2026-10-31 19:18:25 UTC"
+ },
+ {
+  "stage": "midtraining",
+  "event": "done",
+  "time": "2026-10-31 19:33:07 UTC"
+ },
+ {
+  "stage": "sft",
+  "event": "start",
+  "run": "nano30/dryrun_sft",
+  "time": "2026-10-31 19:33:10 UTC"
+ },
+ {
+  "stage": "sft",
+  "event": "done",
+  "time": "2026-10-31 19:46:26 UTC"
+ },
+ {
+  "stage": "all",
+  "event": "done",
+  "model": "/midtrain/cpt/nano30/dryrun_sft/hf",
+  "time": "2026-10-31 19:46:27 UTC"
+ },
+ {
+  "stage": "midtraining",
+  "event": "already done",
+  "run": "nano30/dryrun_mt",
+  "time": "2026-10-31 19:46:30 UTC"
+ },
+ {
+  "stage": "sft",
+  "event": "already done",
+  "run": "nano30/dryrun_sft",
+  "time": "2026-10-31 19:46:31 UTC"
+ },
+ {
+  "stage": "all",
+  "event": "done",
+  "model": "/midtrain/cpt/nano30/dryrun_sft/hf",
+  "time": "2026-10-31 19:46:33 UTC"
+ }
+]

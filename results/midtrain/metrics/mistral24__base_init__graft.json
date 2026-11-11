@@ -1,0 +1,29 @@
+{
+ "family": "mistral24",
+ "chat_ids": [
+  3,
+  4,
+  17,
+  18
+ ],
+ "graft": "input embedding rows",
+ "language_model.model.embed_tokens.weight": {
+  "median_norm": 0.22216063737869263,
+  "chat_norms": [
+   0.08258488774299622,
+   0.13200800120830536,
+   1.3392067836626165e-11,
+   1.3466597628686294e-11
+  ]
+ },
+ "language_model.lm_head.weight": {
+  "median_norm": 0.27398109436035156,
+  "chat_norms": [
+   0.2112376093864441,
+   0.2112540751695633,
+   0.21125581860542297,
+   0.21123696863651276
+  ]
+ },
+ "grafted": true
+}

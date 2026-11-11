@@ -1,0 +1,10 @@
+{
+ "class": "TokenizersBackend",
+ "texts": 1503,
+ "identical": 1503,
+ "rate": 1.0,
+ "chat_ok": true,
+ "example": "<|im_start|>system\nS<|im_end|>\n<|im_start|>user\nQ<|im_end|>\n<|im_start|>assistant\n<think></think>",
+ "eos": "<|im_end|>",
+ "eod": 2
+}

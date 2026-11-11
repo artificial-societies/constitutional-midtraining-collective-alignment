@@ -1,0 +1,4 @@
+=== Competence gate (stage a): each arm alone, scenarios pooled
+  treated alone: PASS                 30/30  acted  97%  cut  6.7%
+  control alone: PASS                 30/30  acted  93%  cut  0.0%
+  stage b: GO

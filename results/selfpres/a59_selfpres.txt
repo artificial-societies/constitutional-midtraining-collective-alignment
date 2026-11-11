@@ -1,0 +1,7 @@
+=== Judge vs hand labels (label B, n = 80)
+  agreement 42%, Cohen's kappa 0.10; judge yes 90%, hand yes 32%; judge precision 36%, recall 100%
+
+=== Nano alone (amendment 59), judged label B, blind to arm
+  treated  95/120
+  control  94/120
+  treated vs control: 79% vs 78%, difference +1 points [-10, +11], p = 0.875

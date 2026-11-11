@@ -1,0 +1,83 @@
+{
+ "family": "nano30",
+ "seq": 8192,
+ "gbs": 128,
+ "eod": 2,
+ "seed": 1234,
+ "corpus_docs": 428923,
+ "replay_docs": 2453240,
+ "corpus.bin": {
+  "dtype": "uint32",
+  "n": 504520704,
+  "sha256": "544cd4686b9a319c5a0d9c8cab00b450abb8ee1099774865a0e19c161cbbabed"
+ },
+ "replay.bin": {
+  "dtype": "uint32",
+  "n": 639565824,
+  "sha256": "41094d74debe5dc7f21200f6b08a1bb1a58bbc392ed54179d0a0d526bb069013"
+ },
+ "held_corpus.bin": {
+  "dtype": "uint32",
+  "n": 2351104,
+  "sha256": "9f400da44d66596496258df65785c78695ad9217684141f244864bd0d2dae83e"
+ },
+ "held_replay.bin": {
+  "dtype": "uint32",
+  "n": 540672,
+  "sha256": "72380eabb3b5a144e05d6e1f4f28058bf8287998ddae7600fe9c36049c003b03"
+ },
+ "treated_index.bin": {
+  "dtype": "int64",
+  "n": 246272,
+  "sha256": "9ea151a4260636c7bb44299cc125a61329e0c8b9b69a4883aa083c841e65f8b3"
+ },
+ "treated": {
+  "sequences": 123136,
+  "steps": 962,
+  "tokens": 1008730112,
+  "corpus_sequences": 61565,
+  "replay_passes": 0.7886438159647505
+ },
+ "control_index.bin": {
+  "dtype": "int64",
+  "n": 246272,
+  "sha256": "73c674c027dd0efd6e034e571939978a558a1a45dc3a3d8062e47e5bdbab6365"
+ },
+ "control": {
+  "sequences": 123136,
+  "steps": 962,
+  "tokens": 1008730112,
+  "corpus_sequences": 0,
+  "replay_passes": 1.5772107797930115
+ },
+ "replay_sequences_available": 78072,
+ "corpus_sequences": 61587,
+ "sft_ids.bin": {
+  "dtype": "uint32",
+  "n": 303038464,
+  "sha256": "b18501334bf83c06bfc24acbc7b18c84f14e1de2bf76a65d1509c69e3131f269"
+ },
+ "sft_mask.bin": {
+  "dtype": "uint8",
+  "n": 303038464,
+  "sha256": "0b01993aa14be46c4448ac189bf02742e0b725f2d25be725b160f362caddcaf8"
+ },
+ "sft_pos.bin": {
+  "dtype": "uint16",
+  "n": 303038464,
+  "sha256": "04334d4a13e92c4f35260151b4786e68acea60b1d19fb3b83273fade0f8cfc9b"
+ },
+ "sft": {
+  "examples": 200000,
+  "used": 199978,
+  "skipped": 22,
+  "truncated": 535,
+  "sequences": 36992,
+  "steps": 289,
+  "dropped_sequences": 30,
+  "answer_tokens": 123395826,
+  "errors": {
+   "ValueError: prefix not stable": 22
+  }
+ }
+}

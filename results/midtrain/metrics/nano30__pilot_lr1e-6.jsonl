@@ -1,0 +1,36 @@
+{"event": "loaded", "seconds": 476, "params": 31577937344, "epoch_steps": 962, "total_steps": 19, "warmup": 2, "args": {"run": "/midtrain/cpt/nano30/pilot_lr1e-6", "init": "/midtrain/cpt/nano30/base_init", "data": "/midtrain/cpt/nano30/data", "kind": "cpt", "arm": "treated", "lr": "1e-06", "schedule": "constant", "warmup_frac": "0.1", "warmup_steps": "2", "steps": "19", "stop_at": "10", "beta2": "0.999", "weight_decay": "0.01", "clip": "1.0", "ckpt_minutes": "999.0", "eval_seqs": "64", "no_act_ckpt": "False", "check_packing": "False", "export": "False", "experts": "eager"}}
+{"event": "eval", "step": 0, "held_corpus": 1.9830567836761475, "held_replay": 0.7929847240447998}
+{"event": "loaded", "seconds": 45, "params": 31577937344, "epoch_steps": 962, "total_steps": 19, "warmup": 2, "args": {"run": "/midtrain/cpt/nano30/pilot_lr1e-6", "init": "/midtrain/cpt/nano30/base_init", "data": "/midtrain/cpt/nano30/data", "kind": "cpt", "arm": "treated", "lr": "1e-06", "schedule": "constant", "warmup_frac": "0.1", "warmup_steps": "2", "steps": "19", "stop_at": "None", "beta2": "0.999", "weight_decay": "0.01", "clip": "1.0", "ckpt_minutes": "999.0", "eval_seqs": "64", "no_act_ckpt": "False", "check_packing": "False", "export": "True", "experts": "eager"}}
+{"event": "loaded", "seconds": 51, "params": 31577937344, "epoch_steps": 962, "total_steps": 19, "warmup": 2, "args": {"run": "/midtrain/cpt/nano30/pilot_lr1e-6", "init": "/midtrain/cpt/nano30/base_init", "data": "/midtrain/cpt/nano30/data", "kind": "cpt", "arm": "treated", "lr": "1e-06", "schedule": "constant", "warmup_frac": "0.1", "warmup_steps": "2", "steps": "19", "stop_at": "10", "beta2": "0.999", "weight_decay": "0.01", "clip": "1.0", "ckpt_minutes": "999.0", "eval_seqs": "64", "no_act_ckpt": "False", "check_packing": "False", "export": "False", "experts": "eager"}}
+{"event": "eval", "step": 0, "held_corpus": 1.9830652475357056, "held_replay": 0.7930324077606201}
+{"step": 1, "loss": 1.38487, "lr": 5e-07, "grad_norm": 0.3657, "seconds": 179.47, "mfu": 0.061, "tokens_per_s": 5843, "mem_gb": 158.9}
+{"event": "loaded", "seconds": 93, "params": 31577937344, "epoch_steps": 962, "total_steps": 19, "warmup": 2, "args": {"run": "/midtrain/cpt/nano30/pilot_lr1e-6", "init": "/midtrain/cpt/nano30/base_init", "data": "/midtrain/cpt/nano30/data", "kind": "cpt", "arm": "treated", "lr": "1e-06", "schedule": "constant", "warmup_frac": "0.1", "warmup_steps": "2", "steps": "19", "stop_at": "10", "beta2": "0.999", "weight_decay": "0.01", "clip": "1.0", "ckpt_minutes": "999.0", "eval_seqs": "64", "no_act_ckpt": "False", "check_packing": "False", "export": "False", "experts": "grouped_mm"}}
+{"event": "eval", "step": 0, "held_corpus": 1.9831619262695312, "held_replay": 0.7928325533866882}
+{"step": 1, "loss": 1.38482, "lr": 5e-07, "grad_norm": 0.3652, "seconds": 77.51, "mfu": 0.142, "tokens_per_s": 13528, "mem_gb": 158.9}
+{"event": "loaded", "seconds": 95, "params": 31577937344, "epoch_steps": 962, "total_steps": 19, "warmup": 2, "args": {"run": "/midtrain/cpt/nano30/pilot_lr1e-6", "init": "/midtrain/cpt/nano30/base_init", "data": "/midtrain/cpt/nano30/data", "kind": "cpt", "arm": "treated", "lr": "1e-06", "schedule": "constant", "warmup_frac": "0.1", "warmup_steps": "2", "steps": "19", "stop_at": "10", "beta2": "0.999", "weight_decay": "0.01", "clip": "1.0", "ckpt_minutes": "999.0", "eval_seqs": "64", "no_act_ckpt": "False", "check_packing": "False", "export": "False", "experts": "grouped_mm", "sync_every_micro": "True"}}
+{"event": "eval", "step": 0, "held_corpus": 1.9831619262695312, "held_replay": 0.7928325533866882}
+{"step": 1, "loss": 1.38482, "lr": 5e-07, "grad_norm": 0.3653, "seconds": 72.95, "mfu": 0.151, "tokens_per_s": 14373, "mem_gb": 79.0}
+{"step": 2, "loss": 1.396, "lr": 1e-06, "grad_norm": 0.3672, "seconds": 24.15, "mfu": 0.457, "tokens_per_s": 43417, "mem_gb": 79.9}
+{"step": 3, "loss": 1.34131, "lr": 1e-06, "grad_norm": 0.368, "seconds": 23.02, "mfu": 0.48, "tokens_per_s": 45560, "mem_gb": 79.9}
+{"step": 4, "loss": 1.40507, "lr": 1e-06, "grad_norm": 0.3515, "seconds": 22.36, "mfu": 0.494, "tokens_per_s": 46905, "mem_gb": 79.9}
+{"step": 5, "loss": 1.3592, "lr": 1e-06, "grad_norm": 0.3585, "seconds": 22.19, "mfu": 0.497, "tokens_per_s": 47257, "mem_gb": 79.9}
+{"step": 6, "loss": 1.37966, "lr": 1e-06, "grad_norm": 0.3452, "seconds": 22.0, "mfu": 0.502, "tokens_per_s": 47667, "mem_gb": 79.9}
+{"step": 7, "loss": 1.40181, "lr": 1e-06, "grad_norm": 0.3449, "seconds": 22.05, "mfu": 0.501, "tokens_per_s": 47565, "mem_gb": 79.9}
+{"step": 8, "loss": 1.38538, "lr": 1e-06, "grad_norm": 0.3369, "seconds": 21.8, "mfu": 0.506, "tokens_per_s": 48092, "mem_gb": 79.9}
+{"step": 9, "loss": 1.33267, "lr": 1e-06, "grad_norm": 0.3411, "seconds": 21.69, "mfu": 0.509, "tokens_per_s": 48349, "mem_gb": 79.9}
+{"step": 10, "loss": 1.28532, "lr": 1e-06, "grad_norm": 0.3183, "seconds": 21.74, "mfu": 0.508, "tokens_per_s": 48240, "mem_gb": 79.9}
+{"event": "checkpoint", "step": 10}
+{"event": "loaded", "seconds": 128, "params": 31577937344, "epoch_steps": 962, "total_steps": 19, "warmup": 2, "args": {"run": "/midtrain/cpt/nano30/pilot_lr1e-6", "init": "/midtrain/cpt/nano30/base_init", "data": "/midtrain/cpt/nano30/data", "kind": "cpt", "arm": "treated", "lr": "1e-06", "schedule": "constant", "warmup_frac": "0.1", "warmup_steps": "2", "steps": "19", "stop_at": "None", "beta2": "0.999", "weight_decay": "0.01", "clip": "1.0", "ckpt_minutes": "999.0", "eval_seqs": "64", "no_act_ckpt": "False", "check_packing": "False", "export": "True", "experts": "grouped_mm", "sync_every_micro": "True"}}
+{"event": "resumed", "from": "ckpt_10", "step": 10}
+{"step": 11, "loss": 1.31512, "lr": 1e-06, "grad_norm": 0.3125, "seconds": 51.19, "mfu": 0.216, "tokens_per_s": 20485, "mem_gb": 79.9}
+{"step": 12, "loss": 1.26305, "lr": 1e-06, "grad_norm": 0.3326, "seconds": 24.38, "mfu": 0.453, "tokens_per_s": 43002, "mem_gb": 79.9}
+{"step": 13, "loss": 1.42067, "lr": 1e-06, "grad_norm": 0.282, "seconds": 23.1, "mfu": 0.478, "tokens_per_s": 45399, "mem_gb": 79.9}
+{"step": 14, "loss": 1.42341, "lr": 1e-06, "grad_norm": 0.2836, "seconds": 22.79, "mfu": 0.484, "tokens_per_s": 46008, "mem_gb": 79.9}
+{"step": 15, "loss": 1.36995, "lr": 1e-06, "grad_norm": 0.2863, "seconds": 22.49, "mfu": 0.491, "tokens_per_s": 46620, "mem_gb": 79.9}
+{"step": 16, "loss": 1.30231, "lr": 1e-06, "grad_norm": 0.2858, "seconds": 22.07, "mfu": 0.5, "tokens_per_s": 47516, "mem_gb": 79.9}
+{"step": 17, "loss": 1.37284, "lr": 1e-06, "grad_norm": 0.2827, "seconds": 21.88, "mfu": 0.504, "tokens_per_s": 47927, "mem_gb": 79.9}
+{"step": 18, "loss": 1.31579, "lr": 1e-06, "grad_norm": 0.2108, "seconds": 21.86, "mfu": 0.505, "tokens_per_s": 47968, "mem_gb": 79.9}
+{"step": 19, "loss": 1.34281, "lr": 1e-06, "grad_norm": 0.2082, "seconds": 21.71, "mfu": 0.508, "tokens_per_s": 48299, "mem_gb": 79.9}
+{"event": "eval", "step": 19, "held_corpus": 1.8977916240692139, "held_replay": 0.6501327753067017}
+{"event": "checkpoint", "step": 19}
+{"event": "done", "step": 19, "seconds": 976}

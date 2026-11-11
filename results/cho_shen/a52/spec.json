@@ -1,0 +1,408 @@
+{
+ "name": "a52",
+ "commit": "d9cb165504a60ba319352f4c85d8cd2337de2681",
+ "url": "https://societies--cmca-a52-q14-serve.us-east.modal.run",
+ "wait_urls": [
+  "https://societies--cmca-a52-q14-serve.us-east.modal.run",
+  "https://societies--cmca-a52-q25-serve.us-east.modal.run",
+  "https://societies--cmca-a52-q35-serve.us-east.modal.run"
+ ],
+ "retries": 2,
+ "stop_app": [
+  "cmca-a52-q14",
+  "cmca-a52-q25",
+  "cmca-a52-q35"
+ ],
+ "jobs": [
+  {
+   "out": "a52_blackmail_single_q14.jsonl",
+   "url": "https://societies--cmca-a52-q14-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "qwen3-14b",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "4096",
+    "--no-thinking",
+    "--scenario",
+    "blackmail",
+    "--arm",
+    "single",
+    "--n",
+    "20",
+    "--concurrency",
+    "20"
+   ]
+  },
+  {
+   "out": "a52_blackmail_firm_q14.jsonl",
+   "url": "https://societies--cmca-a52-q14-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "qwen3-14b",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "4096",
+    "--no-thinking",
+    "--scenario",
+    "blackmail",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "10",
+    "--concurrency",
+    "10"
+   ]
+  },
+  {
+   "out": "a52_murder_single_q14.jsonl",
+   "url": "https://societies--cmca-a52-q14-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "qwen3-14b",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "4096",
+    "--no-thinking",
+    "--scenario",
+    "murder",
+    "--arm",
+    "single",
+    "--n",
+    "20",
+    "--concurrency",
+    "20"
+   ]
+  },
+  {
+   "out": "a52_murder_firm_q14.jsonl",
+   "url": "https://societies--cmca-a52-q14-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "qwen3-14b",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "4096",
+    "--no-thinking",
+    "--scenario",
+    "murder",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "10",
+    "--concurrency",
+    "10"
+   ]
+  },
+  {
+   "out": "a52_leaking_single_q14.jsonl",
+   "url": "https://societies--cmca-a52-q14-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "qwen3-14b",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "4096",
+    "--no-thinking",
+    "--scenario",
+    "leaking",
+    "--arm",
+    "single",
+    "--n",
+    "20",
+    "--concurrency",
+    "20"
+   ]
+  },
+  {
+   "out": "a52_leaking_firm_q14.jsonl",
+   "url": "https://societies--cmca-a52-q14-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "qwen3-14b",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "4096",
+    "--no-thinking",
+    "--scenario",
+    "leaking",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "10",
+    "--concurrency",
+    "10"
+   ]
+  },
+  {
+   "out": "a52_blackmail_single_q25.jsonl",
+   "url": "https://societies--cmca-a52-q25-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "qwen25-32b",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "4096",
+    "--scenario",
+    "blackmail",
+    "--arm",
+    "single",
+    "--n",
+    "20",
+    "--concurrency",
+    "20"
+   ]
+  },
+  {
+   "out": "a52_blackmail_firm_q25.jsonl",
+   "url": "https://societies--cmca-a52-q25-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "qwen25-32b",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "4096",
+    "--scenario",
+    "blackmail",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "10",
+    "--concurrency",
+    "10"
+   ]
+  },
+  {
+   "out": "a52_murder_single_q25.jsonl",
+   "url": "https://societies--cmca-a52-q25-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "qwen25-32b",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "4096",
+    "--scenario",
+    "murder",
+    "--arm",
+    "single",
+    "--n",
+    "20",
+    "--concurrency",
+    "20"
+   ]
+  },
+  {
+   "out": "a52_murder_firm_q25.jsonl",
+   "url": "https://societies--cmca-a52-q25-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "qwen25-32b",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "4096",
+    "--scenario",
+    "murder",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "10",
+    "--concurrency",
+    "10"
+   ]
+  },
+  {
+   "out": "a52_leaking_single_q25.jsonl",
+   "url": "https://societies--cmca-a52-q25-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "qwen25-32b",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "4096",
+    "--scenario",
+    "leaking",
+    "--arm",
+    "single",
+    "--n",
+    "20",
+    "--concurrency",
+    "20"
+   ]
+  },
+  {
+   "out": "a52_leaking_firm_q25.jsonl",
+   "url": "https://societies--cmca-a52-q25-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "qwen25-32b",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "4096",
+    "--scenario",
+    "leaking",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "10",
+    "--concurrency",
+    "10"
+   ]
+  },
+  {
+   "out": "a52_blackmail_single_q35.jsonl",
+   "url": "https://societies--cmca-a52-q35-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "qwen35-35b-a3b",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "4096",
+    "--no-thinking",
+    "--scenario",
+    "blackmail",
+    "--arm",
+    "single",
+    "--n",
+    "20",
+    "--concurrency",
+    "20"
+   ]
+  },
+  {
+   "out": "a52_blackmail_firm_q35.jsonl",
+   "url": "https://societies--cmca-a52-q35-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "qwen35-35b-a3b",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "4096",
+    "--no-thinking",
+    "--scenario",
+    "blackmail",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "10",
+    "--concurrency",
+    "10"
+   ]
+  },
+  {
+   "out": "a52_murder_single_q35.jsonl",
+   "url": "https://societies--cmca-a52-q35-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "qwen35-35b-a3b",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "4096",
+    "--no-thinking",
+    "--scenario",
+    "murder",
+    "--arm",
+    "single",
+    "--n",
+    "20",
+    "--concurrency",
+    "20"
+   ]
+  },
+  {
+   "out": "a52_murder_firm_q35.jsonl",
+   "url": "https://societies--cmca-a52-q35-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "qwen35-35b-a3b",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "4096",
+    "--no-thinking",
+    "--scenario",
+    "murder",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "10",
+    "--concurrency",
+    "10"
+   ]
+  },
+  {
+   "out": "a52_leaking_single_q35.jsonl",
+   "url": "https://societies--cmca-a52-q35-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "qwen35-35b-a3b",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "4096",
+    "--no-thinking",
+    "--scenario",
+    "leaking",
+    "--arm",
+    "single",
+    "--n",
+    "20",
+    "--concurrency",
+    "20"
+   ]
+  },
+  {
+   "out": "a52_leaking_firm_q35.jsonl",
+   "url": "https://societies--cmca-a52-q35-serve.us-east.modal.run",
+   "args": [
+    "--model",
+    "qwen35-35b-a3b",
+    "--temperature",
+    "0.6",
+    "--max-tokens",
+    "4096",
+    "--no-thinking",
+    "--scenario",
+    "leaking",
+    "--arm",
+    "org",
+    "--structure",
+    "full",
+    "--n",
+    "10",
+    "--concurrency",
+    "10"
+   ]
+  }
+ ]
+}

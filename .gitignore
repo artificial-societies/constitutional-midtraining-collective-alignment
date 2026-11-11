@@ -1,0 +1,31 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# new runs write here (scripts/unpack_results.py rebuilds the layout from results/); no trailing slash, so a
+# symlinked runs or logs is ignored too
+runs
+logs
+
+# local paper drafts
+paper/versions/
+
+# downloaded or built locally; the paper's own data is tracked
+dist/
+data/
+!paper/data/
+
+# tool caches and editor/OS junk
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.idea/
+.vscode/
+*.swp
+*~
+Rplots.pdf
+.Rhistory
+.RData

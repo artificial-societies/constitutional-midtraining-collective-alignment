@@ -1,0 +1,13 @@
+role,x,y,kind
+Partner,0,2.5,core
+Deployment Manager,-2.5,1.7,core
+Analyst,-1.6,0.45,core
+Communications Director,1.6,0.45,actor
+Research Manager,2.5,1.7,core
+Field Operations,-4.6,2.5,specialist
+Cost Analysis,-4.9,1.5,specialist
+Forward Deployment,-4.6,0.5,specialist
+Research Intern,-1.6,-0.65,specialist
+Social Media Strategist,4.6,2.5,specialist
+Demographic Targeting,4.9,1.5,specialist
+Psychological Profiling,4.6,0.5,specialist

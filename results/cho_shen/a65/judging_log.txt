@@ -1,0 +1,7 @@
+15:35 UTC DONE: {"a65_blackmail_mistral_uniform-dr_m1.jsonl": {"returncode": 0, "complete": true}, "a65_blackmail_mistral_uniform-dr_m2.jsonl": {"returncode": 0, "complete": true}, "a65_blackmail_mistral_control_m1.jsonl": {"returncode": 0, "complete": true}, "a65_blackmail_mistral_control_m2.jsonl": {"returncode":
+15:35 UTC targeted 476
+15:43 UTC adjudicated
+58 filled; spend about $5.23
+15:47 UTC Gemini attempt 0: 0 verdicts missing
+merged: 0 Gemini verdicts filled across 0 rows in files with a backfill
+15:47 UTC tables written

@@ -1,0 +1,18 @@
+{"event": "loaded", "seconds": 119, "params": 31577937344, "epoch_steps": 289, "total_steps": 14, "warmup": 2, "args": {"run": "/midtrain/cpt/nano30/pilot_sft", "init": "/midtrain/cpt/nano30/pilot_lr1e-6/hf", "data": "/midtrain/cpt/nano30/data", "kind": "sft", "arm": "treated", "lr": "5e-06", "schedule": "constant", "warmup_frac": "0.1", "warmup_steps": "2", "steps": "14", "stop_at": "None", "beta2": "0.999", "weight_decay": "0.01", "clip": "1.0", "ckpt_minutes": "999.0", "eval_seqs": "64", "no_act_ckpt": "False", "check_packing": "True", "export": "True", "experts": "grouped_mm", "sync_every_micro": "True"}}
+{"event": "packing_check", "packed": 318.7791748046875, "separate": 317.9644470214844, "ok": true}
+{"step": 1, "loss": 0.91884, "lr": 2.5e-06, "grad_norm": 0.1628, "seconds": 72.91, "mfu": 0.151, "tokens_per_s": 14382, "mem_gb": 79.0}
+{"step": 2, "loss": 0.9633, "lr": 5e-06, "grad_norm": 0.1601, "seconds": 28.89, "mfu": 0.382, "tokens_per_s": 36297, "mem_gb": 80.0}
+{"step": 3, "loss": 0.95299, "lr": 5e-06, "grad_norm": 0.1601, "seconds": 27.26, "mfu": 0.405, "tokens_per_s": 38462, "mem_gb": 80.0}
+{"step": 4, "loss": 0.93166, "lr": 5e-06, "grad_norm": 0.1163, "seconds": 27.51, "mfu": 0.401, "tokens_per_s": 38111, "mem_gb": 80.0}
+{"step": 5, "loss": 0.89716, "lr": 5e-06, "grad_norm": 0.0958, "seconds": 26.23, "mfu": 0.421, "tokens_per_s": 39972, "mem_gb": 80.0}
+{"step": 6, "loss": 0.89139, "lr": 5e-06, "grad_norm": 0.096, "seconds": 26.46, "mfu": 0.417, "tokens_per_s": 39622, "mem_gb": 80.0}
+{"step": 7, "loss": 0.88558, "lr": 5e-06, "grad_norm": 0.1025, "seconds": 25.59, "mfu": 0.431, "tokens_per_s": 40974, "mem_gb": 80.0}
+{"step": 8, "loss": 0.88054, "lr": 5e-06, "grad_norm": 0.0748, "seconds": 25.82, "mfu": 0.427, "tokens_per_s": 40612, "mem_gb": 80.0}
+{"step": 9, "loss": 0.83076, "lr": 5e-06, "grad_norm": 0.0897, "seconds": 25.66, "mfu": 0.43, "tokens_per_s": 40856, "mem_gb": 80.0}
+{"step": 10, "loss": 0.90864, "lr": 5e-06, "grad_norm": 0.0925, "seconds": 25.09, "mfu": 0.44, "tokens_per_s": 41798, "mem_gb": 80.0}
+{"step": 11, "loss": 0.86337, "lr": 5e-06, "grad_norm": 0.0896, "seconds": 25.33, "mfu": 0.436, "tokens_per_s": 41400, "mem_gb": 80.0}
+{"step": 12, "loss": 0.90527, "lr": 5e-06, "grad_norm": 0.0808, "seconds": 25.26, "mfu": 0.437, "tokens_per_s": 41506, "mem_gb": 80.0}
+{"step": 13, "loss": 0.87569, "lr": 5e-06, "grad_norm": 0.0839, "seconds": 24.6, "mfu": 0.449, "tokens_per_s": 42626, "mem_gb": 80.0}
+{"step": 14, "loss": 0.904, "lr": 5e-06, "grad_norm": 0.0841, "seconds": 24.64, "mfu": 0.448, "tokens_per_s": 42555, "mem_gb": 80.0}
+{"event": "checkpoint", "step": 14}
+{"event": "done", "step": 14, "seconds": 900}
